@@ -1,0 +1,19 @@
+{
+    "name": "l-eru/core",
+    "description": "The core library of L framework",
+    "require-dev": {
+        "easyswoole/swoole-ide-helper": "^1.02"
+    },
+    "authors": [
+        {
+            "name": "L-eru",
+            "email": "L.eru.ninja@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "L\\": "src"
+        }
+    }
+}

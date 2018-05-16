@@ -1,0 +1,42 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "87e0036d7d357dad81b19a3c6b7b8ba0",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "easyswoole/swoole-ide-helper",
+            "version": "1.02",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/easy-swoole/swoole-ide-helper.git",
+                "reference": "eb20085e5d6d6ed4a0857abd26417cc10b6296a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/easy-swoole/swoole-ide-helper/eb20085e5d6d6ed4a0857abd26417cc10b6296a9.zip",
+                "reference": "eb20085e5d6d6ed4a0857abd26417cc10b6296a9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swoole\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Swoole 在IDE下自动识别类、函数、宏，自动补全函数名，为了国内加速完整克隆的镜像",
+            "time": "2018-03-09T06:44:54+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
